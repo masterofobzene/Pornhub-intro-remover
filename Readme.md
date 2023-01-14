@@ -26,7 +26,7 @@ Yes. You just have to edit the time `"00:00:03.7500"` to your needs.
 
 Q - **Ok smart guy, how do I do that?**
 
-Right clic on "video batch cut.bat" -> "Edit"
+Right click on "video batch cut.bat" -> "Edit"
 
 Q - **Its slow! FFMPEG is faster!**
 
