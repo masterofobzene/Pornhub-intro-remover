@@ -12,8 +12,14 @@ Q - **How to use?**
     4. Run "video batch cut.bat"
     5. Check the output folder for the no-intro videos.
 
+
+
 Q - **Do I need special hardware?**
 
-An Nvidia card capable of running -c:v hevc_nvenc command. 
+An Nvidia card capable of running -c:v hevc_nvenc command. Refer to [this link](https://en.wikipedia.org/wiki/Nvidia_NVENC) to see if yours is supported.
 
-Refer to [this link](https://en.wikipedia.org/wiki/Nvidia_NVENC) to see if yours is supported.
+
+
+Q - **Can it be used with other files from other sites?**
+
+Yes. You just have to edit the time `"00:00:03.7500"` to your needs.
