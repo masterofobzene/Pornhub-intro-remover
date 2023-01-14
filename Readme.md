@@ -23,3 +23,7 @@ An Nvidia card capable of running -c:v hevc_nvenc command. Refer to [this link](
 Q - **Can it be used with other files from other sites?**
 
 Yes. You just have to edit the time `"00:00:03.7500"` to your needs.
+
+Q - **Its slow! FFMPEG is faster!**
+
+This batch uses FFmpeg, the reason is slower is because we cannot cut videos in "copy mode" which is almost instantaneous, because of technical limitations on how frames work on videos. Short answer is that it **needs** to re enconde the whole video and not just remove the part we want removed.
