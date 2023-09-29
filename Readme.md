@@ -28,6 +28,3 @@ Q - **Ok smart guy, how do I do that?**
 
 Right click on "video batch cut.bat" -> "Edit"
 
-Q - **Its slow! FFMPEG is faster!**
-
-This batch uses FFmpeg, the reason is slower is because we cannot cut videos in "copy mode" which is almost instantaneous, because of technical limitations on how frames work on videos. Short answer is that it **needs** to re enconde the whole video and not just remove the part we want removed.
